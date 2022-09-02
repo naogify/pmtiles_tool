@@ -49,3 +49,26 @@ ARGS:
 OPTIONS:
     -h, --help    Print help information
 ```
+
+## Install
+リリースページからダウンロード
+
+```
+$ mv pmtiles_tool ~/bin/pmtiles_tool
+$ chmod 755
+
+// 確認
+$ pmtiles_tool help
+```
+
+
+## Preview PMTiles Content
+
+```
+$ pmtiles_tool serve sample.pmtiles
+Starting server on port 8888
+```
+
+QGIS で確認
+![screenshot_from_2022-09-02_10-06-07](https://user-images.githubusercontent.com/8760841/188110209-03b13b5e-eb68-4187-b07e-6b283c46e9cc.png)
+
